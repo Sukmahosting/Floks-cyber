@@ -32,7 +32,7 @@ brew install git python3
 3. DOWNLOAD REPOSITORY
 
 ```bash
-git clone https://github.com/Submanhosting/Floks-cyber
+git clone https://github.com/Sukmahosting/Floks-cyber
 ```
 
 4. MASUK KE DIRECTORY
