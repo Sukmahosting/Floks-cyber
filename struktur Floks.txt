@@ -1,8 +1,40 @@
-flox-cyber.py
-├── 🐍 Python Script (1 file saja)
-│   ├── 📋 IMPORT LIBRARIES
-│   ├── 🏗️ CLASS FloksFramework
-│   ├── 🎯 MAIN MODULES
-│   ├── 🔧 SUB-MODULES  
-│   ├── ⚙️ UTILITY FUNCTIONS
-│   └── 🚀 MAIN EXECUTION
+FloksFramework/
+├── 🏗️ CLASS INIT
+│   ├── Session setup
+│   ├── Headers configuration  
+│   └── Variables initialization
+├── 🔍 DOXING MODULE (7 functions)
+│   ├── Phone intelligence
+│   ├── Email OSINT
+│   ├── Username profiling
+│   ├── Domain reconnaissance
+│   ├── IP geolocation
+│   ├── Social media mapping
+│   └── Doxing menu
+├── 🕵️ SPYWARE MODULE (9 functions) 
+│   ├── Keylogger creation
+│   ├── System info gathering
+│   ├── Network monitoring
+│   ├── File system tracking
+│   ├── Process monitoring
+│   ├── Screenshot capture
+│   ├── Clipboard monitoring
+│   ├── Browser password extraction
+│   └── Spyware menu
+├── ⚔️ EXPLOITATION MODULE (8 functions)
+│   ├── SQL injection scanning
+│   ├── XSS vulnerability scanning
+│   ├── Port scanning
+│   ├── Directory bruteforcing
+│   ├── Subdomain enumeration
+│   ├── DDoS simulation
+│   ├── Hash cracking
+│   └── Exploitation menu
+├── 🔧 UTILITY FUNCTIONS (3 functions)
+│   ├── Results display
+│   ├── Results saving
+│   └── Interactive menu
+└── 🚀 MAIN EXECUTION
+    ├── Banner display
+    ├── Legal consent
+    └── Menu loop
