@@ -1,0 +1,138 @@
+🛠 PENJELASAN LENGKAP FLOKS FRAMEWORK & TOOLS DIDALAMNYA
+
+📋 APA ITU FLOKS FRAMEWORK?
+
+Floks Framework adalah kumpulan tools keamanan siber yang dikemas dalam satu platform untuk:
+
+· ✅ Penetration Testing - Testing keamanan sistem
+· ✅ Security Research - Penelitian keamanan
+· ✅ Educational Purpose - Pembelajaran ethical hacking
+
+🔧 DETAIL SETIAP TOOLS DALAM FRAMEWORK:
+
+1. 🔍 DOXING MODULE
+
+```
+📱 Phone Intelligence
+   → Analyzer nomor telepon
+   → Deteksi carrier & lokasi
+   → Cek aktivitas WhatsApp/Telegram
+
+📧 Email OSINT  
+   → Pencarian profil sosial media
+   → Verifikasi email
+   → Footprinting digital
+
+👤 Username Profiling
+   → Scan 100+ platform
+   → Mapping identitas online
+   → Analisis jejak digital
+
+🌐 Domain Recon
+   → WHOIS lookup
+   → DNS records analysis
+   → Subdomain enumeration
+```
+
+2. 🕵️ SPYWARE MODULE
+
+```
+⌨️ Keylogger
+   → Record ketikan keyboard
+   → Capture credentials
+   → Log activity monitoring
+
+🖥️ System Info Gatherer
+   → Collect system information
+   → Hardware/software audit
+   → Network configuration
+
+📊 Process Monitor
+   → Monitor running processes
+   → Detect suspicious activity
+   → Performance analysis
+
+📁 File System Tracker
+   → File & directory monitoring
+   → Changes detection
+   → Access logging
+```
+
+3. 🎣 PHISHING MODULE
+
+```
+🔐 Login Page Cloner
+   → Facebook phishing template
+   → Gmail login replica
+   → Instagram clone page
+   → Custom site duplicator
+
+📧 Email Campaign
+   → Bulk email sender
+   → Template customization
+   → Tracking & analytics
+
+🌐 Site Cloning
+   → Website duplication
+   → Form action modification
+   → Credential harvesting
+```
+
+4. 💥 EXPLOITATION MODULE
+
+```
+🗃️ SQL Injection Scanner
+   → Automated SQLi detection
+   → Multiple DB support
+   → Payload testing
+
+❌ XSS Scanner
+   → Cross-site scripting detection
+   → DOM/Reflected XSS
+   → Vulnerability verification
+
+🔎 Port Scanner
+   → TCP port scanning
+   → Service detection
+   → Network mapping
+
+📂 Directory Bruteforcer
+   → Hidden path discovery
+   → Common directory scanning
+   → Access control testing
+```
+
+⚡ TEKNOLOGI YANG DIGUNAKAN:
+
+Programming & Libraries:
+
+```python
+# Core Technologies:
+- Python 3.8+
+- Requests (HTTP library)
+- BeautifulSoup (HTML parsing)
+- Phonelumbers (Phone analysis)
+- Cryptography (Encryption)
+
+# Network Tools:
+- Socket programming
+- Multi-threading
+- DNS resolution
+- HTTP protocols
+
+# OSINT Sources:
+- Social media APIs
+- Public databases
+- WHOIS records
+- Geolocation services
+```
+
+Security Features:
+
+```
+🔒 Encryption support
+📝 Activity logging  
+⚡ Performance optimization
+🛡️ Error handling
+📊 Reporting system
+```
