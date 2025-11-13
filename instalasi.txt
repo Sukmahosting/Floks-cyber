@@ -20,5 +20,38 @@ cd floks-pentest
 
 python floks.py
 
+Install di Lermux 
+
+sudo apt update && sudo apt install 
+
+python3 python3-pip git
+
+git clone https://github.com/yourusername/flok
+
+s-pentest.git
+
+cd floks-pentest
+
+pip3 install -r requirements.txt
+
+python3 floks.py
+
+Install di Windows
+
+# Requirements: Python 3.8+
+
+git clone https://github.com/yourusername/flok
+
+s-pentest.git
+
+cd floks-pentest
+
+pip install -r requirements.txt
+
+python floks.py 
+
+command untuk menggunakan tools:
+python floks.py --target example.com --modules sqli,xss,dirscan --threads 20 
+
 donate Support dev:
 https://saweria.co/GDXPIXEL
