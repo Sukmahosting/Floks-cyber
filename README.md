@@ -1,4 +1,4 @@
-## 🔥 Flox-Cyber
+## 🔥 Floks-Cyber
 
 <div align="center">
 
