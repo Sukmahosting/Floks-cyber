@@ -1,0 +1,29 @@
+floks-pentest/
+├── core/                    # Core framework
+│   ├── scanner.py          # Main scanning engine
+│   ├── reporter.py         # Report generation
+│   └── utils.py           # Utility functions
+├── modules/               # All security modules
+│   ├── web/              # Web application security
+│   │   ├── sqli.py       # SQL injection
+│   │   ├── xss.py        # XSS scanner
+│   │   └── csrf.py       # CSRF detection
+│   ├── network/          # Network security
+│   │   ├── portscan.py   # Port scanning
+│   │   ├── sniffer.py    # Packet sniffing
+│   │   └── dos.py        # DDoS simulation
+│   ├── osint/            # Information gathering
+│   │   ├── email.py      # Email investigation
+│   │   ├── social.py     # Social media search
+│   │   └── domain.py     # Domain reconnaissance
+│   └── phishing/         # Social engineering
+│       ├── templates/    # Phishing templates
+│       ├── smtp.py       # Email sending
+│       └── clone.py      # Site cloning
+├── data/                 # Data files
+│   ├── wordlists/        # Bruteforce wordlists
+│   ├── payloads/         # Attack payloads
+│   └── templates/        # Report templates
+├── outputs/              # Scan results
+├── logs/                 # Activity logs
+└── config/               # Configuration files
