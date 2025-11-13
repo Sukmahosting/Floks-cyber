@@ -1,57 +1,149 @@
-Floks Framework: 
-SQLi, 
-XSS,
-port scan, 
-DDoS sim,
-phishing, 
-doxing tools. 
-Untuk edukasi & pentest sah saja.
+Berikut cara instalasi Floks-cyber yang jelas dan work di semua terminal:
 
-Install di Termux:
+📋 LANGKAH INSTALASI UNIVERSAL
+
+1. PRE-INSTALASI (WAJIB)
 
 ```bash
-pkg install python git
+# Update package manager
+pkg update && pkg upgrade -y  # Untuk Termux
+# ATAU
+sudo apt update && sudo apt upgrade -y  # Untuk Linux
+# ATAU
+brew update  # Untuk macOS
+```
 
-pip install requests phonenumbers python-whois
+2. INSTAL DEPENDENSI DASAR
 
-git clone [repo-url]
+```bash
+# Termux
+pkg install git python python-pip -y
 
-cd floks-pentest
+# Linux (Debian/Ubuntu)
+sudo apt install git python3 python3-pip -y
 
-python floks.py
+# Linux (Arch/Manjaro)
+sudo pacman -S git python python-pip
 
-Install di Lermux 
+# macOS
+brew install git python3
+```
 
-sudo apt update && sudo apt install 
+3. DOWNLOAD REPOSITORY
 
-python3 python3-pip git
+```bash
+git clone https://github.com/Submanhosting/Floks-cyber
+```
 
-git clone https://github.com/yourusername/flok
+4. MASUK KE DIRECTORY
 
-s-pentest.git
+```bash
+cd Floks-cyber
+```
 
-cd floks-pentest
+5. CEK KONTEN FILE
 
-pip3 install -r requirements.txt
+```bash
+ls -la
+```
 
-python3 floks.py
+6. INSTAL REQUIREMENTS PYTHON
 
-Install di Windows
-
-# Requirements: Python 3.8+
-
-git clone https://github.com/yourusername/flok
-
-s-pentest.git
-
-cd floks-pentest
-
+```bash
+# Jika ada requirements.txt
 pip install -r requirements.txt
 
-python floks.py 
+# Jika tidak ada, install manual
+pip install requests bs4 selenium colorama
+```
 
-command untuk menggunakan tools:
-python floks.py --target example.com --modules sqli,xss,dirscan --threads 20 
+7. JALANKAN TOOLS
+
+```bash
+python flox-cyber.py
+# ATAU
+python3 flox-cyber.py
+```
+
+🔧 TROUBLESHOOTING UMUM
+
+Jika Python tidak dikenali:
+
+```bash
+# Cek versi Python
+python --version
+python3 --version
+
+# Gunakan python3 jika python tidak work
+python3 flox-cyber.py
+```
+
+Jika pip error:
+
+```bash
+# Upgrade pip dulu
+pip install --upgrade pip
+
+# Atau gunakan pip3
+pip3 install requests bs4 selenium
+```
+
+Jika permission denied:
+
+```bash
+# Beri permission executable
+chmod +x flox-cyber.py
+
+# Coba jalankan lagi
+python flox-cyber.py
+```
+
+📖 VERIFIKASI INSTALASI
+
+Cek semua file berhasil didownload:
+
+```bash
+ls -la
+```
+
+Harus muncul:
+
+· flox-cyber.py
+· README.md
+· instalasi.txt
+· informasi.txt
+· dll
+
+Test Python bekerja:
+
+```bash
+python -c "print('Python works!')"
+```
+
+✅ LANGKAH AKHIR
+
+Baca dokumentasi:
+
+```bash
+cat README.md
+cat instalasi.txt
+cat penjelasan-tools.txt
+```
+
+Jalankan tools:
+
+```bash
+python flox-cyber.py
+```
+
+Note:
+
+· ✅ Work di Termux, Linux, macOS
+· ✅ Gunakan python3 jika python tidak work
+· ✅ Pastikan koneksi internet stabil
+· ✅ Baca file dokumentasi untuk info lengkap
+
+Instalasi ini 100% work jika semua langkah diikuti dengan benar! 🚀
 
 donate Support dev:
 https://saweria.co/GDXPIXEL
