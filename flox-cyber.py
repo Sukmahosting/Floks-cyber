@@ -12,7 +12,6 @@ import string
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import dns.resolver
 import smtplib
-from email.mime.text import MimeText
 from email.mime.multipart import MimeMultipart
 import re
 import whois
