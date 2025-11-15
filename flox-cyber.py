@@ -28,7 +28,6 @@ import http.client
 import ssl
 import urllib3
 from fake_useragent import UserAgent
-import keyboard
 import pyautogui
 import pyscreenshot as ImageGrab
 import clipboard
